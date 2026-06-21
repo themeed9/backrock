@@ -36,11 +36,15 @@ export default function LifeInsurancePage() {
       <section
         className="py-32 px-4 text-center"
         style={{
-          background: 'linear-gradient(to bottom, #000000, #111111)',
-          backgroundImage: 'radial-gradient(ellipse at 50% 0%, rgba(255,255,255,0.04) 0%, transparent 60%)',
+          position: 'relative',
+          overflow: 'hidden',
+          backgroundImage: 'url(https://res.cloudinary.com/dlfax4vpr/image/upload/q_auto:best/f_auto/w_2000/v1782030652/photo-1597698125420-e6201dd444ff_ymctlt.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
         }}
       >
-        <div className="container mx-auto">
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.55)' }} />
+        <div className="container mx-auto" style={{ position: 'relative', zIndex: 1 }}>
           <FadeRise>
             <div className="w-14 h-14 flex items-center justify-center mx-auto mb-6" style={{ background: 'rgba(201,168,76,0.12)' }}>
               <Heart size={28} className="text-gold" />
@@ -114,8 +118,18 @@ export default function LifeInsurancePage() {
       </section>
 
       {/* Cost estimate — slider */}
-      <section className="section" style={{ background: '#111111' }}>
-        <div className="container mx-auto px-4">
+      <section
+        className="section"
+        style={{
+          position: 'relative',
+          overflow: 'hidden',
+          backgroundImage: 'url(https://res.cloudinary.com/dlfax4vpr/image/upload/q_auto/f_auto/v1782030094/katja-ano-q1KZ2NrewQM-unsplash_objcyc.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.65)' }} />
+        <div className="container mx-auto px-4" style={{ position: 'relative', zIndex: 1 }}>
           <FadeRise className="text-center mb-14">
             <p className="text-gold text-xs font-medium tracking-widest uppercase mb-4">Pricing</p>
             <h2 className="font-display font-light text-white" style={{ fontSize: 'clamp(32px, 5vw, 48px)', letterSpacing: '-0.03em', lineHeight: 1.1 }}>

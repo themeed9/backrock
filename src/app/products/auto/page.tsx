@@ -31,8 +31,18 @@ export default function AutoInsurancePage() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
     >
-      <section className="py-32 px-4 text-center" style={{ background: 'linear-gradient(to bottom, #000000, #111111)', backgroundImage: 'radial-gradient(ellipse at 50% 0%, rgba(255,255,255,0.04) 0%, transparent 60%)' }}>
-        <div className="container mx-auto">
+      <section
+        className="py-32 px-4 text-center"
+        style={{
+          position: 'relative',
+          overflow: 'hidden',
+          backgroundImage: 'url(https://res.cloudinary.com/dlfax4vpr/image/upload/q_auto/f_auto/v1782033825/photo-1485291571150-772bcfc10da5_rxc5y9.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.55)' }} />
+        <div className="container mx-auto" style={{ position: 'relative', zIndex: 1 }}>
           <FadeRise><div className="w-14 h-14 flex items-center justify-center mx-auto mb-6" style={{ background: 'rgba(91,141,239,0.12)' }}><Car size={28} style={{ color: '#5B8DEF' }} /></div></FadeRise>
           <FadeRise delay={0.1}><span className="text-xs font-medium tracking-widest uppercase mb-4 inline-block" style={{ color: '#5B8DEF' }}>Auto Insurance</span></FadeRise>
           <FadeRise delay={0.2}>
@@ -78,8 +88,18 @@ export default function AutoInsurancePage() {
         </div>
       </section>
 
-      <section className="section" style={{ background: '#111111' }}>
-        <div className="container mx-auto px-4">
+      <section
+        className="section"
+        style={{
+          position: 'relative',
+          overflow: 'hidden',
+          backgroundImage: 'url(https://res.cloudinary.com/dlfax4vpr/image/upload/q_auto/f_auto/v1782030094/katja-ano-q1KZ2NrewQM-unsplash_objcyc.jpg)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+        }}
+      >
+        <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.65)' }} />
+        <div className="container mx-auto px-4" style={{ position: 'relative', zIndex: 1 }}>
           <FadeRise className="text-center mb-14">
             <p className="text-xs font-medium tracking-widest uppercase mb-4" style={{ color: '#5B8DEF' }}>Pricing</p>
             <h2 className="font-display font-light text-white" style={{ fontSize: 'clamp(32px, 5vw, 48px)', letterSpacing: '-0.03em', lineHeight: 1.1 }}>How much does it cost?</h2>

@@ -234,11 +234,37 @@ export default function ContactPage() {
                 </div>
               </div>
 
-              {/* Map placeholder */}
-              <div className="bg-black-mid border border-white/10 p-8 text-center">
-                <MapPin size={32} className="text-gold mx-auto mb-3" />
-                <p className="text-mist text-sm">Map loading — Victoria Island, Lagos</p>
-                <p className="text-white/50 text-xs mt-1">42A Adeola Odeku Street</p>
+              {/* Map with Directions */}
+              <div className="bg-black-mid border border-white/10 overflow-hidden">
+                <div className="p-3 border-b border-white/10 flex gap-2">
+                  <input
+                    id="map-origin"
+                    type="text"
+                    placeholder="Enter your location..."
+                    className="flex-1 bg-black border border-white/10 px-3 py-2 text-white placeholder-white/40 outline-none text-sm"
+                  />
+                  <button
+                    onClick={() => {
+                      const origin = (document.getElementById('map-origin') as HTMLInputElement).value;
+                      if (origin.trim()) {
+                        window.open(`https://www.google.com/maps/dir/?api=1&origin=${encodeURIComponent(origin)}&destination=42A+Adeola+Odeku+Street+Victoria+Island+Lagos`, '_blank');
+                      }
+                    }}
+                    className="shrink-0 px-4 py-2 text-sm font-medium cursor-pointer"
+                    style={{ border: 0, background: '#C9A84C', color: '#000' }}
+                  >
+                    Go
+                  </button>
+                </div>
+                <iframe
+                  src="https://maps.google.com/maps?q=42A%20Adeola%20Odeku%20Street%20Victoria%20Island%20Lagos&output=embed"
+                  width="100%"
+                  height="240"
+                  style={{ border: 0, display: 'block' }}
+                  allowFullScreen
+                  loading="lazy"
+                  title="BackRock Insurance — Victoria Island, Lagos"
+                />
               </div>
             </motion.div>
           </div>

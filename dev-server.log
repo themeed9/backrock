@@ -34,3 +34,2152 @@ https://nextjs.org/docs/messages/missing-data-scroll-behavior
 [browser] 'oklab(0.999994 0.0000455678 0.0000200868 / 0.1)' is not an animatable color. Use the equivalent color code 
 instead.. For more information and steps for solving, visit https://motion.dev/troubleshooting/color-not-animatable 
 (<anonymous>)
+ GET /admin 404 in 2.6s (next.js: 2.3s, application-code: 226ms)
+ GET / 200 in 181ms (next.js: 5ms, application-code: 176ms)
+Γ¿» ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs 
+[app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+Γ£ô Compiled in 7.3s
+
+./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs 
+[app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+ GET / 500 in 1738ms (next.js: 1368ms, application-code: 370ms)
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs 
+[app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+Γ¿» ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs 
+[app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+Γ¿» ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs 
+[app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs 
+[app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+ GET / 500 in 97ms (next.js: 77ms, application-code: 20ms)
+ GET / 500 in 99ms (next.js: 88ms, application-code: 11ms)
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+Γ¿» ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs 
+[app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+
+./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  [90m2 |[0m
+  [90m3 |[0m [36mimport[0m { motion, useReducedMotion } [36mfrom[0m [32m'framer-motion'[0m;
+[31m[1m>[0m [90m4 |[0m [36mimport[0m { [33mFacebook[0m, [33mTwitter[0m, [33mInstagram[0m, 
+[33mLinkedin[0m, [33mArrowRight[0m } [36mfrom[0m [32m'lucide-react'[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m [36mimport[0m [33mLink[0m [36mfrom[0m [32m'next/link'[0m;
+  [90m6 |[0m [36mimport[0m [33mImage[0m [36mfrom[0m [32m'next/image'[0m;
+  [90m7 |[0m [36mimport[0m {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+[browser] Uncaught Error: ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx
+
+
+    at <unknown> (Error: ./src/components/layout/Footer.tsx:4:1)
+    at <unknown> (Error: (./src/components/layout/Footer.tsx:4:1)
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs 
+[app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs 
+[app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs 
+[app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs 
+[app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Facebook doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Facebook was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Webhook?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs 
+[app-client] (ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Instagram doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Instagram was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Star?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Linkedin doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Linkedin was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Link?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+[browser] ./src/components/layout/Footer.tsx:4:1
+Export Twitter doesn't exist in target module
+  2 |
+  3 | import { motion, useReducedMotion } from 'framer-motion';
+> 4 | import { Facebook, Twitter, Instagram, Linkedin, ArrowRight } from 'lucide-react';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import Link from 'next/link';
+  6 | import Image from 'next/image';
+  7 | import {
+
+The export Twitter was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] 
+(ecmascript).
+Did you mean to import Timer?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the 
+requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./src/components/layout/Footer.tsx
+    ./src/app/layout.tsx 
+Γ£ô Compiled in 395ms
+Γ¿» ReferenceError: Facebook is not defined
+    at module evaluation (src\components\layout\Footer.tsx:16:11)
+  14 |
+  15 | const socials = [
+> 16 |   { icon: Facebook,  href: '#', label: 'Facebook'  },
+     |           ^
+  17 |   { icon: Twitter,   href: '#', label: 'Twitter/X' },
+  18 |   { icon: Instagram, href: '#', label: 'Instagram' },
+  19 |   { icon: Linkedin,  href: '#', label: 'LinkedIn'  }, {
+  digest: '4155175147'
+}
+ GET / 500 in 1403ms (next.js: 172ms, application-code: 1231ms)
+[browser] Uncaught ReferenceError: Facebook is not defined
+    at module evaluation (src/components/layout/Footer.tsx:16:11)
+    at RootLayout (src\app\layout.tsx:22:9)
+  14 |
+  15 | const socials = [
+> 16 |   { icon: Facebook,  href: '#', label: 'Facebook'  },
+     |           ^
+  17 |   { icon: Twitter,   href: '#', label: 'Twitter/X' },
+  18 |   { icon: Instagram, href: '#', label: 'Instagram' },
+  19 |   { icon: Linkedin,  href: '#', label: 'LinkedIn'  },
+Γ£ô Compiled in 74ms
+ΓÜá Fast Refresh had to perform a full reload due to a runtime error.
+ΓÜá Fast Refresh had to perform a full reload when ./src/components/layout/Footer.tsx changed. Read more: 
+https://nextjs.org/docs/messages/fast-refresh-reload
+ΓÜá Fast Refresh had to perform a full reload due to a runtime error.
+Γ¿» Error: Invalid src prop (https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80) on 
+`next/image`, hostname "images.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at ignore-listed frames {
+  digest: '596143557@E231'
+}
+ GET / 500 in 694ms (next.js: 145ms, application-code: 549ms)
+Γ¿» Error: Invalid src prop (https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80) on 
+`next/image`, hostname "images.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at ignore-listed frames {
+  digest: '596143557@E231'
+}
+ GET / 500 in 297ms (next.js: 7ms, application-code: 290ms)
+[browser] Uncaught Error: Invalid src prop (https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80) 
+on `next/image`, hostname "images.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at Array.map (<anonymous>)
+    at Footer (src/components/layout/Footer.tsx:332:21)
+    at RootLayout (src\app\layout.tsx:22:9)
+  330 |                     className="aspect-[4/3] sm:aspect-[16/9] lg:aspect-[16/7]"
+  331 |                   >
+> 332 |                     <Image
+      |                     ^
+  333 |                       src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w...
+  334 |                       alt="A family protected by BackRock Insurance"
+  335 |                       fill
+Γ¿» Error: Invalid src prop (https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80) on 
+`next/image`, hostname "images.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at ignore-listed frames {
+  digest: '596143557@E231'
+}
+ GET / 500 in 264ms (next.js: 4ms, application-code: 260ms)
+[browser] Uncaught Error: Invalid src prop (https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80) 
+on `next/image`, hostname "images.unsplash.com" is not configured under images in your `next.config.js`
+See more info: https://nextjs.org/docs/messages/next-image-unconfigured-host
+    at Array.map (<anonymous>)
+    at Footer (src/components/layout/Footer.tsx:332:21)
+    at RootLayout (src\app\layout.tsx:22:9)
+  330 |                     className="aspect-[4/3] sm:aspect-[16/9] lg:aspect-[16/7]"
+  331 |                   >
+> 332 |                     <Image
+      |                     ^
+  333 |                       src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w...
+  334 |                       alt="A family protected by BackRock Insurance"
+  335 |                       fill
